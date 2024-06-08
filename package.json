@@ -4,7 +4,9 @@
   "description": "Exam for MasterZ Solana Bootcamp 2024",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "keygen": "ts-node ./keygen.ts",
+    "airdrop": "ts-node ./airdrop.ts"
   },
   "author": "Andrea Falcon",
   "license": "ISC",

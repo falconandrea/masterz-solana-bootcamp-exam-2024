@@ -10,11 +10,13 @@ const fromAta = new PublicKey("CiVncVrVQwdPXUBejAzVuJyF9nQT5w2TJz9MGQm4ERvG");
 
 const to = Keypair.generate();
 console.log("To publickey", to.publicKey.toBase58());
+// 555rSQDi4snpBwHFH6JceTwaSdq6YmVJd4u7z18xPPVo
 
 (async () => {
     const tokenAccount = await getOrCreateAssociatedTokenAccount(connection, keypair, mint, to.publicKey);
     const toAta = tokenAccount.address;
     console.log("Associated Token Account:", toAta.toBase58());
+    // DvWfWnvjLDtQCryuENkTxVfLWS2RsK8mj4BVDdu9FMcQ
     const amount = 1e6;
     await transfer(connection, keypair, fromAta, toAta, keypair, amount);
 

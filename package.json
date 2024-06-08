@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "keygen": "ts-node ./keygen.ts",
-    "airdrop": "ts-node ./airdrop.ts"
+    "airdrop": "ts-node ./airdrop.ts",
+    "splInit": "ts-node ./spl_init.ts",
+    "splMint": "ts-node ./spl_mint.ts",
+    "splTransfer": "ts-node ./spl_transfer.ts"
   },
   "author": "Andrea Falcon",
   "license": "ISC",

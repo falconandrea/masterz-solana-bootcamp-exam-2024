@@ -1,0 +1,17 @@
+{
+  "name": "masterz-solana-bootcamp-exam-2024",
+  "version": "1.0.0",
+  "description": "Exam for MasterZ Solana Bootcamp 2024",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrea Falcon",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.6",
+    "@solana/web3.js": "^1.92.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

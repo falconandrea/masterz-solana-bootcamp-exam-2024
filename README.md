@@ -36,33 +36,33 @@ Each script can be run individually as needed. Here are the commands to execute 
 
 ### Create a Wallet
 ```bash
-npm run keygen.ts
+npm run keygen
 ```
 
 After the script completes, the wallet secret key is shown in the terminal. You have to take the array and store it in the file named `wallet.json`.
 
 ### Airdrop Tokens
 ```bash
-npm run airdrop.ts
+npm run airdrop
 ```
 
 ### Initialize SPL Token
 ```bash
-npm run spl_init.ts
+npm run spl_init
 ```
 
 After the script completes, the Mint Address is shown in the terminal. You have to use it in the next script, inside the `mint` variable and inside the `spl_transfer.ts` file in the `mint` variable.
 
 ### Mint SPL Tokens
 ```bash
-npm run spl_mint.ts
+npm run spl_mint
 ```
 
 After the script completes, the Associated Token Account Address is shown in the terminal. You have to use it in the next script, inside the `fromAta` variable.
 
 ### Transfer SPL Tokens
 ```bash
-npm run spl_transfer.ts
+npm run spl_transfer
 ```
 
 ## Dependencies
